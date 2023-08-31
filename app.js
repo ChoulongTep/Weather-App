@@ -31,7 +31,6 @@ async function checkWeather(city) {
         if(data.weather[0].main == "Clouds") 
         {
             weather_Icon.src = "images/clouds.png";
-            container.style.backgroundImage = "linear-gradient(-165deg, blue, yellow)";
             weather_Status.innerHTML = "Clouds";
         } 
         else if(data.weather[0].main == "Rain") 
