@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
-    <link rel="stylesheet" type="text/css" href="../public/app.css">
+    <link rel="stylesheet" type="text/css" href="app.css">
 </head>
 <body>
     <main>
@@ -12,7 +12,7 @@
             <div class="search-container">
                 <input type="text" name="search-box" id="search-box" placeholder="Search for Locations">
                 <button id="search-btn">
-                    <img src="/images/search.png" alt="" width="16px" height="16px">
+                    <img src="./images/search.png" alt="" width="16px" height="16px">
                 </button>
             </div>
             <div class="invalid-container">
@@ -20,7 +20,7 @@
                 <h2>Please Enter Again</h2>
             </div>
             <div class="weather-container">
-                <img src="/images/clear.png" alt="this displat the image of the weather" id="weather-icon">
+                <img src="./images/clear.png" alt="this displat the image of the weather" id="weather-icon">
                 <h1 id="temp">27 C<sup>o</sup></h1>
                 <h2 id="current-location">Phnom Penh</h2>
                 <h3 id="weather-status">Clouds</h3>
@@ -52,9 +52,6 @@
     </main>
 
     <!-- JAVASCRIPT -->
-    <script src="../public/app.js"></script>
-    <script src="main.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.3.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.3.0/firebase-firestore.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
